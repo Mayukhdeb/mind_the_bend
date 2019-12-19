@@ -34,4 +34,4 @@ Vision based deep learning for racing games.
 
 ## :heavy_exclamation_mark: need help
 * need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control
-* ~~kernel dies after about 5 mins of data collection in collect_training_data.ipynb
+* ~~kernel dies after about 5 mins of data collection in collect_training_data.ipynb~~
