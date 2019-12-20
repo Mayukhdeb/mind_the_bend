@@ -13,7 +13,7 @@ Vision based deep learning for racing games.
 > image fileame formatting is done as  (x-value)_(unique_ID).png
 
 ##  :mag_right: Processing images
-* Converts all images to 56*80 numpy arrays with a depth of 3 for R.G and B color channels 
+* Converts all images to numpy arrays with a depth of 3 for R,G and B color channels 
 * The shape gets changed from  ``` [ width, height, depth ] ``` to ```[ depth, width, height]``` for it to be of the right size for the CNN input channel
 * Pairs them with the corresponding mouse x-coordinate as array [  [[[image]]]  ,  [x-value]   ]
 * all of the generated pairs are then stacked into one numpy array with the help of np.vstack() and saved 
@@ -35,5 +35,5 @@ Vision based deep learning for racing games.
 * Figuring out a better data augmentation technique, instead of just making copies 
 
 ## :heavy_exclamation_mark: need help
-* need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control
+* need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control, currently its done by moving the mouse to the corner of the screen manually 
 * ~~kernel dies after about 5 mins of data collection in collect_training_data.ipynb~~
