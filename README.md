@@ -1,11 +1,15 @@
 # mind_the_bend :racing_car:
+
 Vision based deep learning for racing games. 
 
-![3 channel 56*80 RGB image](https://github.com/Mayukhdeb/mind_the_bend/blob/master/images/pipeline.png "3 channel 56*80 RGB image being fed into the CNN which returns steering values")
 >Currently trying to make it work on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
->Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
+![](example.gif)
+
+![3 channel 56*80 RGB image](https://github.com/Mayukhdeb/mind_the_bend/blob/master/images/pipeline.png "3 channel 56*80 RGB image being fed into the CNN which returns steering values")
+
+Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 
 ## :movie_camera:	Collection of training data -
 * Rapidly takes screenshots of the game and saves them in a folder
@@ -37,3 +41,4 @@ Vision based deep learning for racing games.
 ## :heavy_exclamation_mark: need help
 * need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control, currently its done by moving the mouse to the corner of the screen manually 
 * ~~kernel dies after about 5 mins of data collection in collect_training_data.ipynb~~
+
