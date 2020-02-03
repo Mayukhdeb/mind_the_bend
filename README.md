@@ -35,7 +35,7 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 * Returned value is taken care  of by pyauogui which moves the mouse accordingly 
 
 ### Stuff that's under way right now - 
-* ~~take screenshots at a higher framerate both while collecting training data and testing trained models ~~
+* ~~take screenshots at a higher framerate both while collecting training data and testing trained models~~
 * Figuring out a better data augmentation technique, instead of just making copies 
 
 ## :heavy_exclamation_mark: need help
