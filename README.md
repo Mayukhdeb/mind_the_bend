@@ -2,7 +2,7 @@
 
 Vision based deep learning for racing games. 
 
->Currently trying to make it work on an open source racing game Speed Dreams - http://www.speed-dreams.org/
+>Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
 <img src="example.gif" width="60%">.
