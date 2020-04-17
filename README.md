@@ -2,6 +2,10 @@
 
 Vision based deep learning for racing games. 
 
+Does the car stay on track by itself ? *yes*
+
+Should you trust your life on it ? *no*
+
 >Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
@@ -36,7 +40,7 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 
 * Rapidly taken screenshots are prerpocessed and fed to the trained CNN drunk_driver()
 * drunk_driver() returns a steer value 
-* Returned value is taken care  of by pyauogui which moves the mouse accordingly 
+* Returned value is taken care  of by pyautogui which moves the mouse accordingly 
 
 ### Stuff that's under way right now - 
 * ~~take screenshots at a higher framerate both while collecting training data and testing trained models~~
