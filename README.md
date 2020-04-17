@@ -5,7 +5,7 @@ Vision based deep learning for racing games.
 >Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
-<img src="images/flex_mode.gif" width="60%">.
+<img src="images/flex_mode.gif" width="80%">.
 
 
 ![3 channel 56*80 RGB image](https://github.com/Mayukhdeb/mind_the_bend/blob/master/images/pipeline.png "3 channel 56*80 RGB image being fed into the CNN which returns steering values")
