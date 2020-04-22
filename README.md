@@ -9,8 +9,7 @@ Should you trust your life on it ? *no*
 >Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
-<img src="images/flex_mode.gif" width="80%">.
-
+<img src="images/drunk_driver.gif" width="80%">.
 
 ![3 channel 56*80 RGB image](https://github.com/Mayukhdeb/mind_the_bend/blob/master/images/pipeline.png "3 channel 56*80 RGB image being fed into the CNN which returns steering values")
 
@@ -41,6 +40,9 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 * Rapidly taken screenshots are prerpocessed and fed to the trained CNN drunk_driver()
 * drunk_driver() returns a steer value 
 * Returned value is taken care  of by pyautogui which moves the mouse accordingly 
+
+<img src="images/flex_mode.gif" width="80%">.
+
 
 ### Stuff that's under way right now - 
 * ~~take screenshots at a higher framerate both while collecting training data and testing trained models~~
