@@ -25,8 +25,7 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 ##  :mag_right: Processing images
 * Converts all images to numpy arrays with a depth of 3 for R,G and B color channels 
 * The shape gets changed from  ``` [ width, height, depth ] ``` to ```[ depth, width, height]``` for it to be of the right size for the CNN input channel
-* Pairs them with the corresponding mouse x-coordinate as array [  [[[image]]]  ,  [x-value]   ]
-* all of the generated pairs are then stacked into one numpy array with the help of np.vstack() and saved 
+* Augmentation techniques like `RandomAffline()` get applied upon the images before the forward pass through the CNN for training
 
 ## :chart_with_upwards_trend: Data preprocessing and augmentation
 * First things first, plotted the frequency distribution of each steering value hen
