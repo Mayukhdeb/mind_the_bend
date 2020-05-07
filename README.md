@@ -18,7 +18,7 @@ Should you trust your life on it ? *no*
 Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 
 ## :movie_camera:	Collection of training data -
-* Rapidly takes screenshots of the game and saves them in a folder
+* Rapidly takes screenshots of the game and saves them into a folder
 * The label in this case is the x-co-ordinate of the mouse which is captured by pyautogui and is stored in the formatted filename of each collected image
 > image fileame formatting is done as  (x-value)_(unique_ID).png
 
@@ -30,7 +30,7 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 ## :chart_with_upwards_trend: Data preprocessing and augmentation
 * First things first, plotted the frequency distribution of each steering value hen
 * Roughly doubled the amount of training data by generating mirror images of existing images and vstacking them with reversed steer value. 
-*  Flattened the frequency distribution by making copies of random ramples of under-represented steering value data points
+*  Flattened the frequency distribution by oversampling some labels with the Imbalanced-learn library and torch transforms
 * Normalised the steering values by replacing the x-co-ordinates with steering values. In my case the "straight" steer value was at x = 400, for normalised_value = 400 - x_value. 
 > note :  Right is negative steer value and left is positive
 
