@@ -8,6 +8,11 @@ Does the car stay on track by itself ? *yes*
 
 Should you trust your life on it ? *no*
 
+## Now with road segmentation using openCV
+
+<img src="images/road_segmentation.gif" width="80%">.
+
+
 >Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
 >But will work on other racing games as well
 
