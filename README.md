@@ -12,9 +12,7 @@ Should you trust your life on it ? *no*
 
 <img src="images/road_segmentation.gif" width="80%">.
 
-
->Works on an open source racing game Speed Dreams - http://www.speed-dreams.org/
->But will work on other racing games as well
+> Note: The  model is trained and tested on an open source racing sim called speed dreams, you can install it from [here](https://flathub.org/apps/details/org.speed_dreams.SpeedDreams)
 
 <img src="images/drunk_driver.gif" width="80%">.
 
@@ -58,4 +56,4 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 * need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control, currently its done by moving the mouse to the corner of the screen manually 
 * ~~kernel dies after about 5 mins of data collection in collect_training_data.ipynb~~
 
-> Note: The  model is trained and tested on an open source racing sim called speed dreams, you can install it from [here](https://flathub.org/apps/details/org.speed_dreams.SpeedDreams)
+
