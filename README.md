@@ -8,10 +8,6 @@ Does the car stay on track by itself ? *yes*
 
 Should you trust your life on it ? *no*
 
-## Now with road segmentation using openCV
-
-<img src="images/road_segmentation.gif" width="80%">.
-
 > Note: The  model is trained and tested on an open source racing sim called speed dreams, you can install it from [here](https://flathub.org/apps/details/org.speed_dreams.SpeedDreams)
 
 <img src="images/drunk_driver.gif" width="80%">.
@@ -51,6 +47,7 @@ Here's the Project [in action](https://photos.app.goo.gl/ibtjnBxFtZ5SXGPJA)
 ### Stuff that's under way right now - 
 * ~~take screenshots at a higher framerate both while collecting training data and testing trained models~~
 * ~~Figuring out a better data augmentation technique, instead of just making copies~~
+* Create and train an ensemble model with frames from different perspectives (forward, top down)
 
 ## :heavy_exclamation_mark: need help
 * need a proper way to terminate/pause the loop in wear_your_seatbelts.ipynb when the CNN takes over mouse control, currently its done by moving the mouse to the corner of the screen manually 
