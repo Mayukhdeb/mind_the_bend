@@ -10,6 +10,21 @@ Should you trust your life on it ? *no*
 
 > Note: The  model is trained and tested on an open source racing sim called speed dreams, you can install it from [here](https://flathub.org/apps/details/org.speed_dreams.SpeedDreams)
 
+# Ensemble model (under progresss)
+
+## data collection
+For the ensemble model, data was collected from 2 perspectives within the game:
+* one of them would be responsible for the "colors" with a simple RGB image from the bonnet of the car 
+* another one would be for the "edges" from a third person perspective 
+
+<img src="images/ensemble_data.png" width="50%">.
+
+
+
+
+
+# Vanilla model:
+
 <img src="images/drunk_driver.gif" width="80%">.
 
 ![3 channel 56*80 RGB image](https://github.com/Mayukhdeb/mind_the_bend/blob/master/images/pipeline.png "3 channel 56*80 RGB image being fed into the CNN which returns steering values")
