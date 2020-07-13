@@ -11,6 +11,8 @@ Should you trust your life on it ? *no*
 > Note: The  model is trained and tested on an open source racing sim called speed dreams, you can install it from [here](https://flathub.org/apps/details/org.speed_dreams.SpeedDreams)
 
 # Ensemble model (under progresss)
+<img src="images/ensemble_design.jpg" width="100%">.
+
 
 <img src="images/ensemble_driver.gif" width="50%">.
 
