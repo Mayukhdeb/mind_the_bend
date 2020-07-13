@@ -12,6 +12,9 @@ Should you trust your life on it ? *no*
 
 # Ensemble model (under progresss)
 
+<img src="images/ensemble_driver.gif" width="50%">.
+
+
 ## data collection
 For the ensemble model, data was collected from 2 perspectives within the game:
 * one of them would be responsible for the "colors" with a simple RGB image from the bonnet of the car 
